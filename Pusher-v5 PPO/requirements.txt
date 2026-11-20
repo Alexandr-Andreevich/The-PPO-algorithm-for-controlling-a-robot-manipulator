@@ -8,3 +8,5 @@ plotly
 tqdm
 pandas
 tensorboard
+imageio[ffmpeg]
+imageio[pyav]
