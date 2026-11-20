@@ -1,0 +1,10 @@
+gymnasium
+mujoco
+stable-baselines3
+imageio
+matplotlib
+seaborn
+plotly
+tqdm
+pandas
+tensorboard
