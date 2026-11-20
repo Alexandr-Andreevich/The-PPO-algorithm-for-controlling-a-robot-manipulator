@@ -16,21 +16,19 @@
    # Клонирование репозитория
    git clone https://github.com/Alexandr-Andreevich/The-PPO-algorithm-for-controlling-a-robot-manipulator.git
    ```
-  - разархивируйте файлы из папки **Pusher-v5 PPO.zip** в **The-PPO-algorithm-for-controlling-a-robot-manipulator**.
-    Должна получиться следующая структура проекта:
+  - Должна получиться следующая структура проекта:
     ```
     ├── The-PPO-algorithm-for-controlling-a-robot-manipulator/
-    |   |
-    │   ├── Pusher-v5 PPO/               
-    │       ├── main.py
-    │       └── requirements.txt
-    |
-    ├── Preview Pusher-v5 PPO.mp4
-    ├── Pusher-v5 PPO.zip
-    ├── README.md
+        |
+        ├── Pusher-v5 PPO/               
+        │       ├── main.py
+        │       └── requirements.txt
+        |
+        ├── Preview Pusher-v5 PPO.mp4
+        ├── README.md
   - ```
     # Перейдите в директорию проекта
-    cd Pusher-v5 PPO
+    cd The-PPO-algorithm-for-controlling-a-robot-manipulator\Pusher-v5 PPO
     ```
   - ```
     # Создайте виртуальное окружение в папке с файлом main.py
