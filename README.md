@@ -16,7 +16,7 @@
    # Клонирование репозитория
    git clone https://github.com/Alexandr-Andreevich/The-PPO-algorithm-for-controlling-a-robot-manipulator.git
    ```
-  - разархивируйте файлы из папки **Pusher-v5 PPO.zip** в The-PPO-algorithm-for-controlling-a-robot-manipulator
+  - разархивируйте файлы из папки **Pusher-v5 PPO.zip** в **The-PPO-algorithm-for-controlling-a-robot-manipulator**
   - ```
     # Перейдите в директорию проекта
     cd Pusher-v5 PPO
