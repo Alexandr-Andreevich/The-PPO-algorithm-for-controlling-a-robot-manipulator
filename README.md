@@ -11,14 +11,19 @@
 Так же, в файлах проекта прилагается видео для демонстрации работы агента **Preview Pusher-v5 PPO.mp4**
 
 # Запуск проекта на ПК
-  - скачать проект
-  - разархивировать папку **Pusher-v5 PPO.zip**
-  - в фреймворке выбрать папку для работы **Pusher-v5 PPO**
-  - запустить терминал
-  - создать виртуальное окружение **в папке с файлом main.py** командой: **py -m venv .venv**
-  - запустить виртуальное окружение командой: **.venv\Scripts\activate**
-  - установить необходимые библиотеки для работы командой: **py -m pip install --upgrade gymnasium mujoco stable-baselines3 imageio matplotlib seaborn plotly tqdm pandas**
-  - установить необходимые библиотеки для работы командой: **pip install -r requirements.txt**
-  - запустить файл **main.py**
+  - скачайте проект, либо клонируйте репозиторий
+   ```bash
+   # Клонирование репозитория
+   git clone https://github.com/Alexandr-Andreevich/The-PPO-algorithm-for-controlling-a-robot-manipulator.git
+   ```
+  - разархивируйте файлы из папки **Pusher-v5 PPO.zip** в The-PPO-algorithm-for-controlling-a-robot-manipulator
+  - ```
+    # Перейдите в директорию проекта
+    cd Pusher-v5 PPO
+    ```
+  - создайте виртуальное окружение **в папке с файлом main.py** командой: **py -m venv .venv**
+  - запустите виртуальное окружение командой: **.venv\Scripts\activate**
+  - установите необходимые библиотеки для работы командой: **py -m pip install -r requirements.txt**
+  - запустите файл **main.py**
 
 После обучения модели, появится видео с лучшим эпизодом агента.
